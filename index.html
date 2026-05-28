@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANDWICH CLUB - 100% FRESH (EST. 1998)</title>
+    <style>
+        /* MAIN BODY - 90s GRUNGE COLORS */
+        body {
+            background-color: #000; /* Deep black background */
+            color: #FFFF00; /* Classic high-vis neon yellow text */
+            font-family: 'Times New Roman', Times, serif; /* Utilitarian 90s default */
+            line-height: 1.5;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* BANNER AREA */
+        #header-banner {
+            border: 5px solid red; /* Raw red border */
+            background: linear-gradient(135deg, red 0%, yellow 50%, lime 100%); /* Bizarre neon gradient */
+            color: black;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 10px;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* CONTENT CONTAINERS */
+        .page-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid #555;
+            background-color: #111;
+            padding: 20px;
+        }
+
+        /* 90s HEADING STYLES */
+        h1, h2, h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: red; /* Raw red H1 */
+            text-transform: uppercase;
+            font-size: 3em;
+            margin-top: 0;
+        }
+        h2 {
+            color: #FF00FF; /* Pure neon Magenta H2 */
+            font-style: italic;
+        }
+        h3 {
+            color: #00FFFF; /* Deep cyan H3 */
+            text-decoration: underline;
+        }
+
+        /* PARAGRAPH STYLE */
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: lime; /* Lime green text */
+        }
+
+        /* HORIZONTAL LINE RULER (Classic 90s separator) */
+        hr {
+            border: 0;
+            height: 3px;
+            background-image: linear-gradient(to right, red, #FFFF00, lime, red);
+            margin: 30px 0;
+        }
+
+        /* THE IMAGES - RAW DISPLAY */
+        .image-box {
+            display: inline-block;
+            margin: 15px;
+            border: 4px solid blue;
+            vertical-align: top; /* Alignment hack */
+        }
+        .image-box img {
+            width: 300px; /* Force image size */
+            height: auto;
+            display: block;
+        }
+
+        /* THE CONTACT FORM STYLING */
+        #contact-form {
+            border: 10px groove gray;
+            background: silver; /* Utilitarian gray background */
+            color: black;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 25px;
+            font-family: sans-serif;
+            text-align: left; /* Left align form labels */
+        }
+        #contact-form h2 {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        #contact-form p {
+            color: black;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        /* Form labels and fields */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px inset gray;
+            background-color: #DDD; /* Light gray input */
+            font-family: inherit;
+        }
+
+        /* Radio Buttons (The 90s option list) */
+        .radio-group {
+            margin-bottom: 20px;
+        }
+        .radio-option {
+            margin-bottom: 8px;
+        }
+        .radio-option input {
+            margin-right: 10px;
+        }
+
+        /* SUBMIT BUTTON - FANCY (1998 Fancy) */
+        .submit-btn {
+            background-color: blue; /* Blue background */
+            color: white; /* White text */
+            border: 4px outset gray;
+            padding: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            width: 100%;
+            margin-top: 15px;
+        }
+        .submit-btn:active {
+            border: 4px inset gray; /* Simulated push effect */
+        }
+
+        /* FOOTER DECORATION */
+        #site-footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: lime;
+            border-top: 1px dotted gray;
+            padding-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 1. HEADER BANNER (Top of Page) -->
+    <div id="header-banner">
+        *** WELCOME TO SANDWICH CLUB (EST. 1998) ***
+    </div>
+
+    <!-- 2. PAGE CONTENT AREA -->
+    <div class="page-container">
+
+        <!-- Header Titles -->
+        <h1>100% FRESH SANDWICH CLUB</h1>
+        <h2>It's not a club... it's a *movement*.</h2>
+        <h3>Local | Authentic | Subs</h3>
+
+        <!-- Paragraph Description -->
+        <p>You're probably here because you've heard the rumors. We don't advertise. Sandwich Club is local, unpretentious cold subs, built to order with fresh ingredients.</p>
+
+        <!-- Divider Line -->
+        <hr>
+
+        <!-- The Images Area -->
+        <h3>Check the vibe...</h3>
+        
+        <!-- Image 1: Invite (Raw display) -->
+        <div class="image-box">
+            <!-- Ensure this image file is placed in your desktop folder -->
+            <img src="SANDWICH CLUB INVITE 1.jpg" alt="Invitation Card">
+        </div>
+
+        <!-- Image 2: Subs (Raw display) -->
+        <div class="image-box">
+            <!-- Ensure this image file is placed in your desktop folder -->
+            <img src="IMG_2828 (1) (1).jpg" alt="Sandwich Spread">
+        </div>
+
+        <!-- Divider Line -->
+        <hr>
+
+        <!-- 3. CONTACT FORM AREA (THE SILVER BOX) -->
+        <form id="contact-form" action="#" method="POST">
+            
+            <h2>GET ON THE MENU LIST</h2>
+            <p>*We'll only email you when the menu drops.</p>
+
+            <!-- Name Field -->
+            <label for="name">FULL NAME:</label>
+            <input type="text" id="name" name="name" required placeholder="Example: Tony Subrano">
+
+            <!-- Email Field -->
+            <label for="email">E-MAIL ADDRESS:</label>
+            <input type="email" id="email" name="email" required placeholder="You@sandwichclub.info">
+
+            <!-- Number Field -->
+            <label for="number">CELL NUMBER:</label>
+            <input type="tel" id="number" name="number" required placeholder="(909) 555-0101">
+
+            <!-- Contact Preference -->
+            <label>PREFERENCE:</label>
+            <p>How do you want to receive the menu?</p>
+            <div class="radio-group">
+                <div class="radio-option">
+                    <input type="radio" id="pref-text" name="contact-preference" value="text" checked>
+                    <label for="pref-text" style="display:inline;">TEXT (90s SMS VIBE)</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="pref-email" name="contact-preference" value="email">
+                    <label for="pref-email" style="display:inline;">E-MAIL (STAY CLASSIFIED)</label>
+                </div>
+            </div>
+
+            <!-- THE SUBMIT BUTTON -->
+            <button type="submit" class="submit-btn">SUBMIT ORDER (GIVE ME THE MENU)</button>
+
+        </form>
+
+    </div>
+
+    <!-- 4. FOOTER Area -->
+    <div id="site-footer">
+        SITE BEST VIEWED IN NETSCAPE NAVIGATOR 4.0 OR INTERNET EXPLORER 3.0.<br>
+        PROUDLY CREATED WITH NOTEPAD and AI.<br>
+        [A D I D A S] - SANDWICH ALL DAY I DREAM ABOUT SUBS.
+    </div>
+
+</body>
+</html>
